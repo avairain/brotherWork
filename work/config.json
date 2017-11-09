@@ -1,0 +1,18 @@
+{
+    "port": "1007",
+    "api": {
+        "kaiqiang": "http://apiv2.pinduoduo.com/spike_activity?page=1&size=100",
+        "nvzhuang": "http://apiv2.pinduoduo.com/operation/14/groups?opt_type=1&offset=0&size=3",
+        "xiezi": "http://apiv2.pinduoduo.com/operation/1284/groups?opt_type=2&offset=0&size=3",
+        "yifu": "http://apiv2.pinduoduo.com/operation/1135/groups?opt_type=2&offset=0&size=3",
+        "riyongpin": "http://apiv2.pinduoduo.com/operation/15/groups?opt_type=1&offset=0&size=3",
+        "dianxin": "http://apiv2.pinduoduo.com/operation/1/groups?opt_type=1&offset=0&size=3",
+        "dianqi": "http://apiv2.pinduoduo.com/operation/18/groups?opt_type=1&offset=0&size=3",
+        "chuangshangyongpin": "http://apiv2.pinduoduo.com/operation/818/groups?opt_type=1&offset=0&size=3",
+        "shuiguoshipin": "http://apiv2.pinduoduo.com/operation/13/groups?opt_type=1&offset=0&size=3",
+        "tongzhuangErtongpingpin": "http://apiv2.pinduoduo.com/operation/4/groups?opt_type=1&offset=0&size=3",
+        "jinkou": "http://apiv2.pinduoduo.com/operation/12/groups?opt_type=1&offset=0&size=3",
+        "mianbuhuli": "http://apiv2.pinduoduo.com/operation/16/groups?opt_type=1&offset=0&size=3",
+        "changjiazhixiaoJianjia": "http://apiv2.pinduoduo.com/operation/1451/groups?opt_type=2&offset=0&size=3"
+    }
+}

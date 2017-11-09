@@ -1,0 +1,52 @@
+http://apiv2.pinduoduo.com/spike_activity?page=1&size=100
+获取开抢的数据  =》   前五条是最近的一次开抢      
+sold_quantity 的值为 0 的第一条是  下次开抢的数据
+is_onsale 的值为 0 是第一条是 下下次开抢的数据
+
+
+
+http://apiv2.pinduoduo.com/operation/14/groups?opt_type=1&offset=0&size=3 
+女装  14
+
+
+http://apiv2.pinduoduo.com/operation/1284/groups?opt_type=2&offset=0&size=3
+鞋子  1284
+
+
+http://apiv2.pinduoduo.com/operation/1135/groups?opt_type=2&offset=0&size=3
+衣服  1135
+
+
+http://apiv2.pinduoduo.com/operation/15/groups?opt_type=1&offset=0&size=3
+日用  15
+
+
+http://apiv2.pinduoduo.com/operation/1/groups?opt_type=1&offset=0&size=3
+点心  1
+
+
+http://apiv2.pinduoduo.com/operation/18/groups?opt_type=1&offset=0&size=3
+电器  18
+
+
+http://apiv2.pinduoduo.com/operation/818/groups?opt_type=1&offset=0&size=3 
+床上用品818
+
+
+http://apiv2.pinduoduo.com/operation/13/groups?opt_type=1&offset=0&size=3
+水果食品13
+
+
+http://apiv2.pinduoduo.com/operation/4/groups?opt_type=1&offset=0&size=3
+童装，儿童用品4
+
+
+http://apiv2.pinduoduo.com/operation/12/groups?opt_type=1&offset=0&size=3
+进口  12
+
+
+http://apiv2.pinduoduo.com/operation/16/groups?opt_type=1&offset=0&size=3
+面部护理16
+
+http://apiv2.pinduoduo.com/operation/1451/groups?opt_type=2&offset=0&size=3
+厂家直销，减价1451 type=1
