@@ -15,9 +15,27 @@
             url: "config.json",
             success: function (data) {
                 $.ajax({
-                    url: "http://127.0.0.1:"+data.port+"/api/changjiazhixiaoJianjia",
-                    success: function (data) {
-                        console.log(data)
+                    url: "http://127.0.0.1:" + data.port + "/api/huoquyanzhentupian",
+                    type: 'POST',
+                    data: { "appKey": "PDDFRONT", "sign": "f8497abd0b4967bd66093f7d2d80af5f", "accessToken": "" },
+                    success: function (d) {
+                        console.log(d)
+                        var img = new Image()
+                        img.src = d.result.fileUrl
+                        img.onload = function(){
+                            $('body').append(this)
+                        }
+                        $.ajax({
+                            url: "http://127.0.0.1:" + data.port + "/api/fasongduanxinyanzhenma",
+                            type: 'POST',
+                            data: { "appKey": "PDDFRONTLOGIN", "sign": "f8497abd0b4967bd66093f7d2d80af5f", "phoneNumber": "13816411604", "captchaCode": "leyp" },
+                            success: function (data) {
+                                console.log(data)
+                            },
+                            error: function (err) {
+                                console.log(err)
+                            }
+                        })
                     },
                     error: function (err) {
                         console.log(err)

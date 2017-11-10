@@ -13,6 +13,8 @@
         "tongzhuangErtongpingpin": "http://apiv2.pinduoduo.com/operation/4/groups?opt_type=1&offset=0&size=3",
         "jinkou": "http://apiv2.pinduoduo.com/operation/12/groups?opt_type=1&offset=0&size=3",
         "mianbuhuli": "http://apiv2.pinduoduo.com/operation/16/groups?opt_type=1&offset=0&size=3",
-        "changjiazhixiaoJianjia": "http://apiv2.pinduoduo.com/operation/1451/groups?opt_type=2&offset=0&size=3"
+        "changjiazhixiaoJianjia": "http://apiv2.pinduoduo.com/operation/1451/groups?opt_type=2&offset=0&size=3",
+        "huoquyanzhentupian":"http://imsapi.pinduoduo.com/ims/entry/mobile_get_captchacode",
+        "fasongduanxinyanzhenma":"http://imsapi.pinduoduo.com/ims/entry/mobile_get_validcode"
     }
 }

@@ -1,3 +1,6 @@
+
+get:
+
 http://apiv2.pinduoduo.com/spike_activity?page=1&size=100
 获取开抢的数据  =》   前五条是最近的一次开抢      
 sold_quantity 的值为 0 的第一条是  下次开抢的数据
@@ -50,3 +53,24 @@ http://apiv2.pinduoduo.com/operation/16/groups?opt_type=1&offset=0&size=3
 
 http://apiv2.pinduoduo.com/operation/1451/groups?opt_type=2&offset=0&size=3
 厂家直销，减价1451 type=1
+
+
+
+
+
+
+
+POST
+
+http://imsapi.pinduoduo.com/ims/entry/mobile_get_captchacode
+body:'{"appKey":"PDDFRONT","sign":"f8497abd0b4967bd66093f7d2d80af5f","accessToken":""}'
+header:{"Content-Type":"application/json; charset=UTF-8"}
+获取登录验证图片
+code 1000000 成功
+data.result.fileUrl
+
+http://imsapi.pinduoduo.com/ims/entry/mobile_get_validcode
+body:'{"appKey":"PDDFRONTLOGIN","sign":"f8497abd0b4967bd66093f7d2d80af5f","phoneNumber":"13816411604","captchaCode":"leyp"}'
+ps:captchaCode为验证信息
+header:{"Content-Type":"application/json; charset=UTF-8"}
+发送短信验证码
