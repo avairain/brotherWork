@@ -1,0 +1,1 @@
+http://es6.ruanyifeng.com/?search=httpGet&x=0&y=0#docs/generator
